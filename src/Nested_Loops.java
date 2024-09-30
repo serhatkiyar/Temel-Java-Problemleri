@@ -86,25 +86,42 @@ public class Nested_Loops {
 
         for (int i = 0; i < dimension; i++) {
             for (int j = 0; j <= i; j++) {
-                if (i == 0 | j == 0 | i == j)  {
+                if (i == 0 | j == 0 | i == j) {
                     System.out.print("1 ");
-                }
-                else {
+                } else {
                     System.out.print((factorial(i) / (factorial(j) * factorial(i - j))) + " ");
                 }
             }
             System.out.println();
 
-
         }
     }
 
+    // Kullanıcıdan bir sayı alarak o sayıya kadar olan asal sayıları ekrana yazdır.
+    public static void problem7() {
+        System.out.print("Hangi sayıya kadar olan asalları yazdırmak istiyorsunuz: \n>>> ");
+        int number = scanner.nextInt();
+        if (number > 0) {
 
+            for (int i = 0; i <= number; i++) {
+                if (i <= 1) {
+                    continue;
+                } else {
+                    int carpan_sayisi = 0;
+                    for (int j = 2; j < i; j++) {
+                        if (i % j == 0) {
+                            carpan_sayisi += 1;
+                        }
+                    }
+                    if (carpan_sayisi <= 1) {
+                        System.out.print(i + " ");
+                    }
+                }
 
+            }
+        }
 
-
-
-
+    }
 
 
 
