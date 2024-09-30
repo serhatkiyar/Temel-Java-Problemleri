@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         // Loops.problem8();
-        ConditionalLoops.problem1();
+        ConditionalLoops.problem8();
     }
 
 
