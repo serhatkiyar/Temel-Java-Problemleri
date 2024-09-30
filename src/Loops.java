@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Donguler {
+public class Loops {
     static Scanner scanner = new Scanner(System.in);
 
     // 1’den 10’a kadar olan sayıları ekrana yazdıran bir program yaz.

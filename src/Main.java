@@ -2,7 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Donguler.problem8();
+        // Loops.problem8();
+        Nested_Loops.problem6();
     }
 
 
