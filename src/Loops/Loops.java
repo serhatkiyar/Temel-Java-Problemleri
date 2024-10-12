@@ -1,3 +1,5 @@
+package Loops;
+
 import java.util.Scanner;
 public class Loops {
     static Scanner scanner = new Scanner(System.in);
@@ -110,7 +112,9 @@ public class Loops {
             factor++;
 
         }
+
     }
+
 
 
 }

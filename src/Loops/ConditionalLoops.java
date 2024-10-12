@@ -1,3 +1,5 @@
+package Loops;
+
 import java.util.Scanner;
 public class ConditionalLoops {
     static Scanner scanner = new Scanner(System.in);
@@ -124,7 +126,14 @@ public class ConditionalLoops {
     }
 
     //Girilen iki sayı arasında kalan tüm asal sayıları bulan bir program yaz.
+    public static void problem9() {
+        System.out.print("Birinci sayıyı giriniz: \n>>> ");
+        int number1 = scanner.nextInt();
+        System.out.print("İkinci sayıyı giriniz: \n>>> ");
+        int number2 = scanner.nextInt();
 
+
+    }
 
 }
 

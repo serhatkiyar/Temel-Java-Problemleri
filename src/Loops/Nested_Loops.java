@@ -1,3 +1,5 @@
+package Loops;
+
 import java.util.Scanner;
 public class Nested_Loops {
     static Scanner scanner = new Scanner(System.in);
