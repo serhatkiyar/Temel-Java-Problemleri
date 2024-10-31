@@ -29,6 +29,7 @@ public class YiginsalBagliListe {
         else if (bas.sonraki == null) {
             bas = null;
             son = null;
+            elemanSayisi--;
         }
         else {
             Eleman temp = bas;
